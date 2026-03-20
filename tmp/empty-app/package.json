@@ -1,0 +1,9 @@
+{
+  "name": "lovable-local-cloud-placeholder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && echo '<!DOCTYPE html><html><head><title>lovable-local-cloud</title></head><body><h1>lovable-local-cloud</h1><p>Set TARGET_APP_PATH in .env to point to your exported Lovable app.</p></body></html>' > dist/index.html"
+  }
+}

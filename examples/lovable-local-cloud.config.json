@@ -1,0 +1,13 @@
+{
+  "frontend": {
+    "installCommand": "npm ci",
+    "buildCommand": "npm run build",
+    "outputDir": "dist"
+  },
+  "bootstrap": {
+    "migrationsDir": "supabase/migrations",
+    "seedFile": "supabase/seed.sql",
+    "functionsDir": "supabase/functions",
+    "storageBuckets": []
+  }
+}

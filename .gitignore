@@ -1,0 +1,10 @@
+.env
+.env.local
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.log
+# Runtime data (keep config files tracked)
+volumes/db-data/
+volumes/storage-data/
